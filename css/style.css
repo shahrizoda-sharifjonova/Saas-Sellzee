@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 .header{
-    background: url(../images/bg.png);
+    background: url(../images/bg.png) no-repeat;
     height: 100vh;
 }
 .nav{
@@ -73,6 +73,9 @@
     height: 560px;
     margin-right: -80px;
 }
+.intro__row__left{
+    padding-bottom: 60px;
+}
 .intro__left__text{
     font-weight: 500;
     font-size: 19px;
@@ -107,4 +110,69 @@ hr{
 .intro__btn-2{
     background: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.social__body{
+   margin-top: 100px;
+   margin-bottom: 50px;
+   text-align: center;
+}
+.social__logo{
+    padding: 15px 35px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.08);
+    margin-right: 60px;
+}
+.social__media{
+    display: block;
+}
+.media-2{
+    margin-top: 50px;
+}
+.comments__body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.comments__row__right{
+    margin-top: 50px;
+}
+.comments__text{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FF5A05;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+.comments__title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+    color: #353535;
+    margin-bottom: 15px;
+}
+.checkbox__text{
+    display: flex;
+    align-items: center;
+}
+.checkbox__text:first-child{
+    margin-right: 20px;
+}
+.checkbox{
+    display: flex;
+    margin: 20px 0;
+}
+.comments__btns{
+    margin-top: 40px;
+}
+.far{
+    margin-right: 10px;
+}
+.comments__desc{
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    opacity: 0.7;
 }

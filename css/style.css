@@ -9,6 +9,9 @@
 html{
     height: 100%;
 }
+img{
+    pointer-events: none;
+}
 .container{
     max-width: 1140px;
     width: 100%;
@@ -60,6 +63,10 @@ html{
     padding: 15px 30px;
     background: #FF5A05;
     border-radius: 4px;
+    transition: 0.5s;
+}
+.header__btn:hover{
+    background: #c94300;
 }
 .header__link.active, .header__link:hover{
     line-height: 160%;
@@ -318,6 +325,11 @@ hr{
     padding: 15px 30px;
     background: #FF5A05;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.plan__btn:first-child:hover{
+    color: #FF5A05;
+    background: rgba(255, 90, 5, 0.1);
 }
 .plan__btn:not(:last-child){
     margin-right: 25px;
@@ -326,6 +338,10 @@ hr{
     color: #FF5A05;
     background: rgba(255, 90, 5, 0.1);
     border-radius: 10px;
+}
+.plan__btn:nth-child(2):hover{
+    background: #FF5A05;
+    color: #FFFFFF;
 }
 .plan__btns{
     background: #FFFFFF;
@@ -400,7 +416,10 @@ hr{
     padding: 13px 60px;
     background: #FF5A05;
     border-radius: 10px;
-    position: relative;
+    transition: 0.5s;
+}
+.plan__row__btn:hover{
+    background: #af3a00;
 }
 .letter{
     margin-top: 70px;
@@ -438,7 +457,7 @@ hr{
     border: none;
     padding: 15px 25px;
     border: 1px solid rgba(5, 0, 11, 0.1);
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 0 0 4px;
     height: 55px;
 }
 .letter__btn{
@@ -452,6 +471,10 @@ hr{
     border: none;
     margin-left: -5px;
     color: #fff;
+    transition: 0.5s;
+}
+.letter__btn:hover{
+    background: #c94300;
 }
 .footer{
     margin-top: 120px;
@@ -462,16 +485,20 @@ hr{
     justify-content: space-between; 
 }
 .footer__body{
-    padding: r50px;
+    padding: 50px;
 }
 .footer__icons{
     margin-top: 30px;
 }
 .fab{
     color: #fff;
+    transition: 0.5s;
 }
 .fab:not(:last-child){
     margin-right: 7px;
+}
+.fab:hover{
+    color: #FF5A05;
 }
 .footer__row__title{
     font-weight: 500;
@@ -491,3 +518,4 @@ hr{
     text-align: center;
     color: #FFFFFF;
 }
+

@@ -66,7 +66,7 @@ img{
     transition: 0.5s;
 }
 .header__btn:hover{
-    background: #c94300;
+    background: darken(#c94300, 10%);
 }
 .header__link.active, .header__link:hover{
     line-height: 160%;
